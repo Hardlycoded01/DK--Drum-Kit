@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Stack+Sans+Text:wght@200..700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        *{
+            color: white;
+padding: 0;
+margin: 0;
+        }
+        body{
+            font-family: "Stack Sans Text";
+            display: flex;
+            justify-content: center;
+            background-color: rgb(3, 3, 18);
+        }
+        .mainbox{
+                padding: 3vh;
+    margin: 11vh 0vh;
+        }
+        #heading{
+            display: flex;
+            align-items: center;
+            gap: 1vh;
+        }
+        #keys{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1vw;
+            margin: 3vh 0vh;
+justify-content: space-between;
+width: 80vw;
+        }
+        .pads{
+            height: 17vh;
+    background-color: rgb(2, 2, 14);
+    width: 19vw;
+    border: 1px solid rgb(22, 22, 36);
+ border-radius: 10px;
+ display: flex;
+ 
+     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+        }
+        .pads:hover{
+            cursor: pointer;
+            background-color: rgb(3, 3, 20);
+        }
+        button{
+            background-color: rgb(128, 25, 175);
+            padding: x;
+            border-radius:10px ;
+            border: 2px;
+           height: 5vh;
+    width: 8vh;
+    font-weight:800;
+        }
+        
+        .progress{
+            display: flex;
+            border: 1px solid rgb(2, 2, 26);
+            align-items: center;
+            gap: 2vh;
+        }
+        .sf{
+            margin: 2vh;
+            color: rgb(194, 192, 214);
+        }
+        .pads p{
+            color: rgb(171, 196, 219);
+            font-size: 0.9rem;
+        }
+        .img{
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="mainbox">
+    <div id="heading">
+<div class="logo">
+    <img class="img" src="/dk_imresizer (1).jpg" alt="dk">
+</div>
+<div class="name">
+    <h3>Drum Kit ---Beginner </h3>
+    <p>Click a pad or press keys: A S D F G H J K</p>
+</div>
+    </div>
+    <div id="keys">
+<div class="pads" id="pad1"><h4>A</h4><p>Kick</p><p>Big low beat</p></div>
+<div class="pads" id="pad2"><h4>S</h4><p>Snare</p><p>Crack Snap</p></div>
+<div class="pads" id="pad3"><h4>D</h4><p>Hit-Hat</p><p>Short Hat</p></div>
+<div class="pads" id="pad4"><h4>F</h4><p>Tom</p><p>Mid-Tom</p> </div>
+<div class="pads" id="pad5"><h4>G</h4><p>Crash</p><p>Bright crash</p> </div>
+<div class="pads" id="pad6"><h4>H</h4><p>Ride</p><p>Sustain ride</p> </div>
+<div class="pads" id="pad7"><h4>J</h4><p>Clap</p><p>Short Clap</p> </div>
+<div class="pads" id="pad8"><h4>K</h4><p>Shaker</p><p>Rhythmic shaker</p> </div>
+    </div>
+    <div class="progress">
+<button>Stop</button><p>Volume
+<input type="range" name="" id="">
+</p>
+</div>
+<p class="sf">Place the Sound files</p>
+    
+    </div>
+</body>
+</html>
